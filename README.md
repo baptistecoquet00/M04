@@ -1,4 +1,18 @@
 # M04
+# Switch
+Mise en place des 2 VLAN La mise en place des 2 VLAN se fait exclusivement sur les switches. Tous les switches ne permettent pas la création de VLAN, il faut disposer de switches paramétrables. 
+Création de 2 VLAN : 
+Se placer sur le switch, ouvrir la CLI et taper les commandes suivnates pour créer le VLAN 10 nommé PME :
+
+![Pasted image 20231223010300](https://github.com/baptistecoquet00/M04/assets/114006454/e56b135f-2867-4ee3-85d8-569cbcaaac21)
+
+
+![Pasted image 20231223010317](https://github.com/baptistecoquet00/M04/assets/114006454/bf9f516c-9f76-4896-91fc-e268832b00ac)
+
+
+![Pasted image 20231223010353](https://github.com/baptistecoquet00/M04/assets/114006454/18baaa86-e1cb-494b-9309-5c4ef4160f78)
+
+
 # Routeur
 Configuration de l’interface réseau FastEthernet0 du routeur Commençons par configurer l’interface réseau de ce routeur. Revenir maintenant dans la vue logique. Cliquer sur le routeur, puis aller dans l’onglet « Config » et choisir « FastEthernet0/0 ». Fixer l’adresse IPv4 192.168.50.254 et le masque 255.255.255.0. Enfin, cliquer sur la case à cocher On pour le « Port Status » pour activer le port FastEthernet0/0. Remarquez les commandes qui sont automatiquement saisies dans Equivalent IOS commands :
 ![Pasted image 20231223005927](https://github.com/baptistecoquet00/M04/assets/114006454/9c545b71-be66-4255-bedb-fbadfb7a02f9)
