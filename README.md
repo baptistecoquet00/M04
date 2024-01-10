@@ -21,6 +21,9 @@ Sauvegarde de la configuration du routeur Pour sauvegarder la configuration du r
 ![Pasted image 20231223010407](https://github.com/baptistecoquet00/M04/assets/114006454/1ccad3fb-d44c-43c0-8571-505cc0d103e5)
 
 
+![Pasted image 20231223010518](https://github.com/baptistecoquet00/M04/assets/114006454/8188d01a-c02d-478d-b41d-24078ac94234)
+
+
 
 
 Commande pour permettre d'empêcher le trafic entre le VLAN 10 et le VLAN 20.
