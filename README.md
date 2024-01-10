@@ -1,5 +1,5 @@
 # M04
-Routeur
+# Routeur
 Configuration de l’interface réseau FastEthernet0 du routeur Commençons par configurer l’interface réseau de ce routeur. Revenir maintenant dans la vue logique. Cliquer sur le routeur, puis aller dans l’onglet « Config » et choisir « FastEthernet0/0 ». Fixer l’adresse IPv4 192.168.50.254 et le masque 255.255.255.0. Enfin, cliquer sur la case à cocher On pour le « Port Status » pour activer le port FastEthernet0/0. Remarquez les commandes qui sont automatiquement saisies dans Equivalent IOS commands :
 ![Pasted image 20231223005927](https://github.com/baptistecoquet00/M04/assets/114006454/9c545b71-be66-4255-bedb-fbadfb7a02f9)
 
