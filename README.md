@@ -35,14 +35,18 @@ Commande pour spécifier l'adresse du serveur DNS sur un routeur :
 **Accéder à la configuration du routeur :**
 
 - Utilisez la commande `enable` suivi du mot de passe si nécessaire, puis `configure terminal` pour entrer en mode de configuration globale.
-- ![[Pasted image 20231223011444.png]]
+- ![Pasted image 20231223011124](https://github.com/baptistecoquet00/M04/assets/114006454/8141041a-ad05-45e7-a9df-a00bf595ed7e)
+
 **Accéder à l'interface connectée aux PC :**
-![[Pasted image 20231223011217.png]]
+![Pasted image 20231223011217](https://github.com/baptistecoquet00/M04/assets/114006454/8e9185ed-e2c0-4633-acd6-096cc49d87f6)
+
 **Configurer DHCP :**
-![[Pasted image 20231223011324.png]]
+![Pasted image 20231223011324](https://github.com/baptistecoquet00/M04/assets/114006454/db9702b3-f48c-4291-89b6-8f216a59d5ff)
+
 **Spécifier l'adresse du serveur DNS :**
 Utilisez la commande `dns-server <adresse_ip_du_serveur_dns>`
-![[Pasted image 20231223011410.png]]
+![Pasted image 20231223011410](https://github.com/baptistecoquet00/M04/assets/114006454/a3f2a61f-dbf6-4477-8e27-335e0eef873f)
+
 
 
 
