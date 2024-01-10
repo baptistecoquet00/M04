@@ -18,10 +18,13 @@ Sauvegarde de la configuration du routeur Pour sauvegarder la configuration du r
 ![Pasted image 20231223010141](https://github.com/baptistecoquet00/M04/assets/114006454/18f0f9f6-909b-4a49-b4bc-c8573c331e49)
 
 
-![[Pasted image 20231223010407.png]]
-![[Pasted image 20231223010518.png]]
+![Pasted image 20231223010300](https://github.com/baptistecoquet00/M04/assets/114006454/22f4181f-fdab-4fec-ab28-e5519349a3ea)
+
+![Pasted image 20231223010317](https://github.com/baptistecoquet00/M04/assets/114006454/ccc74d57-7061-459e-9154-0a0ab3f6ec49)
+
 Commande pour permettre d'empêcher le trafic entre le VLAN 10 et le VLAN 20.
-![[Pasted image 20231223010613.png]]
+![Pasted image 20231223010353](https://github.com/baptistecoquet00/M04/assets/114006454/81136f12-4168-46b6-a3f8-c694cf3df510)
+
 Commande pour spécifier l'adresse du serveur DNS sur un routeur :
 **Accéder à la configuration du routeur :**
 
