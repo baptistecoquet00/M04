@@ -1,6 +1,7 @@
 # M04
 Configuration de l’interface réseau FastEthernet0 du routeur Commençons par configurer l’interface réseau de ce routeur. Revenir maintenant dans la vue logique. Cliquer sur le routeur, puis aller dans l’onglet « Config » et choisir « FastEthernet0/0 ». Fixer l’adresse IPv4 192.168.50.254 et le masque 255.255.255.0. Enfin, cliquer sur la case à cocher On pour le « Port Status » pour activer le port FastEthernet0/0. Remarquez les commandes qui sont automatiquement saisies dans Equivalent IOS commands :
-obsidian://open?vault=Langage%20de%20programmation&file=R%C3%A9seau%2FPNG%2FPasted%20image%2020231223005927.png
+![Pasted image 20231223005927](https://github.com/baptistecoquet00/M04/assets/114006454/9c545b71-be66-4255-bedb-fbadfb7a02f9)
+
 Création du pool DHCP et activation du service Sur le routeur, nous allons maintenant configurer le service DHCP et l’activer. Les adresses IP disponibles sont pour les machines sont rassemblées dans des pools. Vous allez paramétrer le pool DHCP du serveur pour lui indiquer toutes les adresses IP disponibles pour les machines. Dans notre cas, notre serveur DHCP pourra distribuer toutes les adresses IP du réseau 192.168.50.0/24 soit les adresses IP allant de 192.168.50.1 à 192.168.50.254. Nous exclurons l’adresse 192.168.50.254, puisque c’est l’adresse que le routeur possède. Il ne conviendrait pas que le routeur la distribue à une autre machine, sinon, cela créerait un conflit d’adresse IP. Ouvrir la configuration du serveur. Sélectionner l’onglet « CLI » : Comand Line Interface. Passer en mode administrateur en tapant la commande « enable » :
 ![[Pasted image 20231223010025.png]]
 
@@ -26,5 +27,7 @@ Commande pour spécifier l'adresse du serveur DNS sur un routeur :
 **Spécifier l'adresse du serveur DNS :**
 Utilisez la commande `dns-server <adresse_ip_du_serveur_dns>`
 ![[Pasted image 20231223011410.png]]
+
+
 
 
